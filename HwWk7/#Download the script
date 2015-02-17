@@ -1,0 +1,12 @@
+#I have no idea how to do this I tried my best 
+#Download the script 
+curl -L https://www.dropbox.com/s/u70dtrdr35p5tgk/seminars.tar.gz | tar zxv
+#list them in order 
+for li in rating_li:
+    div = li.find("div", class_="dates")
+    dates_numbers = div.a
+    meta = li.find("meta", class_="names")
+    names_letters = h2.names
+    print names_letters 
+    print dates_numbers 
+#parse HTML files for names and dates 
